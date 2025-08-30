@@ -1,0 +1,22 @@
+# --- Java / Builds ---
+*.class
+*.log
+/bin/
+/out/
+/target/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets / Local config ---
+jdbc.properties
+.env
